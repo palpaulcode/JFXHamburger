@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFX007.jnlp">
+  <information>
+    <title>JavaFX007</title>
+    <vendor>TURNKEY</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX007.jar" size="2900" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2323355" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFX007" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafx007.JavaFX007"  name="JavaFX007" />
+  <update check="always"/>
+</jnlp>
